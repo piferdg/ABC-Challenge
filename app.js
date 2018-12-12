@@ -32,6 +32,9 @@ reset.addEventListener("click", resetLetters);
 function showLetterA() {
   if (letterA.style.display === "block") {
     letterA.style.display = "none";
+  } 
+  if (letterA.style.display === "none") {
+    letterA.style.display = "block";
   } else {
     letterA.style.display = "block";
   }
@@ -50,6 +53,9 @@ function showLetterA() {
 function showLetterB() {
   if (letterB.style.display === "block") {
     letterB.style.display = "none";
+  } 
+  if (letterB.style.display === "none") {
+    letterB.style.display = "block";
   } else {
     letterB.style.display = "block";
   }
@@ -68,6 +74,9 @@ function showLetterB() {
 function showLetterC() {
   if (letterC.style.display === "block") {
     letterC.style.display = "none";
+  }
+  if (letterC.style.display === "none") {
+    letterC.style.display = "block";
   } else {
     letterC.style.display = "block";
   }
@@ -84,19 +93,19 @@ function showLetterC() {
 }
 
 function resetLetters() {
-  if (letterA.style.display === "block") {
-    letterA.style.display = "none";
+  if (letterA.style.display === "none") {
+    letterA.style.display = "block";
   } else {
-    letterA.style.display = "none";
+    letterA.style.display = "block";
   }
-  if (letterB.style.display === "block") {
-    letterB.style.display = "none";
+  if (letterB.style.display === "none") {
+    letterB.style.display = "block";
   } else {
-    letterB.style.display = "none";
+    letterB.style.display = "block";
   }
-  if (letterC.style.display === "block") {
-    letterC.style.display = "none";
+  if (letterC.style.display === "none") {
+    letterC.style.display = "block";
   } else {
-    letterC.style.display = "none";
+    letterC.style.display = "block";
   }
 }
